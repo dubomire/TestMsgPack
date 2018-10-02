@@ -15,13 +15,6 @@ namespace TestMsgPack.Models
         public int Age { get; set; }
         
         public DateTime Date { get; set; }
-
         
-        public Vehicle Vehicle { get; set; }
-        
-        public override string ToString()
-        {
-            return $"{Name}[ID: {ID}] has {Age} years old. He's working on vehicle '{Vehicle}' since {Date}.";
-        }
     }
 }
